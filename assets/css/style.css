@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  height: 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+}
+
+.cta-button {
+  background-color: #ff0055;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.featured-templates {
+  padding: 2rem;
+  text-align: center;
+}
+
+.template-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.template-card {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffff33;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.template-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff00ff66;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  font-size: 0.9rem;
+}
