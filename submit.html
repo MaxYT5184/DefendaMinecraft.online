@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Submit Your Template</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <div class="centered">
+    <h2>🚀 Submit a Template</h2>
+    <form action="/submit" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="url" name="templateURL" placeholder="GitHub or Zip Link" required />
+      <textarea name="description" placeholder="Describe your template" required></textarea>
+      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+      <button type="submit" class="cta-button">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
